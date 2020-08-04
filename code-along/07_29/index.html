@@ -1,5 +1,3 @@
-
- 
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -8,19 +6,29 @@
     <title>Bootstrap</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <link rel="stylesheet" href="styles.css">
+    <!-- Font-Awesome CDN-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
 </head>
-<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
 <body>
-    <!-- Navbar --> 
+    <!-- Collapse -->
+    <div class="collapse fixed-top bg-dark" id="mobileNavbar">
+        <div class="container mobile-menu-wrapper"></div>
+    
+    </div>
+
+    <!-- Navbar -->
         <nav class="navbar fixed-top navbar-dark bg-dark">
             <a href="#" class="navbar-brand">
                 <img height="30" src="http://static1.squarespace.com/static/55c4ffcfe4b0b6679a5a2ff5/t/55c927aee4b0389a4f23a090/1594054577323/?format=1500w" alt="">
             </a>
 
-            <!-- Mobile-->
-            <button class="navbar-toggler"> data-toggler="collapse"
-            data-target="mobileNavbar
-            <ul class="nav d-none"> 
+            <!-- Mobile -->
+            <button class="navbar-toggler" data-toggle="collapse" data-target="#mobileNavbar">
+                <i class="fas fa-bars"></i>
+            </button>
+            
+            <!-- Desktop -->
+            <ul class="nav d-none">
                 <li class="nav-item">
                     <a href="#emojis" class="nav-link active">Emoji</a>
                 </li>

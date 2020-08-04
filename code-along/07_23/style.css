@@ -1,0 +1,19 @@
+.wrapper {
+    background-color: lightgray;
+    height: 50vh;
+}
+
+.box {
+    border: 1px solid black;
+    height: 20px;
+    width: 200px;
+}
+
+#orange {
+    background-color: #faa71b;
+    padding-top: 20px;
+}
+
+#blue {
+    background-color: #005191;
+}
