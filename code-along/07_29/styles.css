@@ -17,24 +17,7 @@
 .container-md {
     background-color: lightgreen;
 }
-
-.container-lg {
-    background-color: lightgrey;
-}
-
-.container-xl {
-    background-color: lightyellow;
-}
-
-#column-1 {
-    /* background-color: lightslategray; */
-}
-
-#column-2 {
-    /* background-color: lightgreen; */
-}
-
-#column-3 {
+{
     /* background-color: lightsalmon; */
 }
 
